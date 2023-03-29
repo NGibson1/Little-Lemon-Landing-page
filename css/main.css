@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    bottom: 0px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+ul {
+    background-color: #495E57;
+    list-style: none;
+    margin-top: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100em;
+    justify-content: center;
+    margin: 1em;
+    border-radius: 25px;
+}
+    
+li {
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+a:hover{
+    background-color: #ffffff;
+    color: #F4CE14;
+    opacity: 1;
+}
+
+.little_lemon_banner {
+    width: 35%;
+    min-height: auto;
+    background-color: lightgray;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_content {
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_banner {
+    width: 100em;
+    height: 15%;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+.card_link {
+    width: 30%;
+    height: 65%;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+article:hover {
+    background-color: yellow;
+}
+
+
+.card_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 25px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: gray;
+    background-size: contain;
+}
+
+.footer_image {
+    width: 3em;
+}
